@@ -20,39 +20,6 @@ This tool is designed to save developers time and effort in documenting their pr
 -   **Frontend:** [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/)
 -   **AI Model:** [Google Gemini API](https://ai.google.dev/gemini-api) (`@google/genai`)
 
-## Setup for Developers
-
-To run this project locally, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/ai-readme-generator.git
-    cd ai-readme-generator
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    # or
-    yarn install
-    ```
-
-3.  **Set up Environment Variables:**
-    This project requires a Google Gemini API key. The application is configured to read the key from the `process.env.API_KEY` environment variable. Ensure this variable is available in your development environment. For example, you can create a `.env` file in the root of the project:
-    ```
-    # .env
-    API_KEY="your_google_gemini_api_key"
-    ```
-    *Note: You may need to configure your build tool (e.g., Vite, Webpack) to correctly expose environment variables to your client-side code.*
-
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    ```
-    The application should now be running on your local development server.
-
 ## How to Use
 
 1.  Navigate to the application URL in your web browser.
