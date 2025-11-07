@@ -1,0 +1,5 @@
+{
+  "name": "AI README Generator",
+  "description": "An AI-powered web application that generates a project README file and API documentation from a GitHub repository link using the Gemini API.",
+  "requestFramePermissions": []
+}
